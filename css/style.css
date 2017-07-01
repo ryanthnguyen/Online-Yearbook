@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(0, 179, 227) !important;
+  color: white;
+}
+
+.logo {
+  background-color: teal;
+  color: white;
+  text-align: center;
+}
