@@ -3,11 +3,11 @@
   <head>
     <title>Registration</title>
     <link href="css/registration.css" type="text/css" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
   </head>
   <body>
     <div class="logo">
-    <img src="Logos/log2.png"/>
+    <img src="Logos/logo.png"/>
     </div>
     <div class="container">
       <div class="row">
@@ -15,24 +15,27 @@
               <form class="form-horizontal">
                 <fieldset>
                   <legend>Create Account</legend>
-                  <div class="form-group">
-                    <label for="usernameBox" class="sr-only control-label">Choose Your Username</label>
-                    <div class="col-md-4">
-                    </div>
-                    <div class="col-md-4">
+                  <div class="form-group" id="firstBox">
+                    <label for="usernameBox" class="control-label col-6 col-md-4">Username:</label>
+                    <div class=" col-6 col-md-4">
                       <input type="text" class="form-control" id="usernameBox" placeholder="Choose Your Username"/>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="passwordBox" class="sr-only control-label">Choose Your Password</label>
-                    <div class="col-md-4">
-                    </div>
-                    <div class="col-md-4">
+                    <label for="passwordBox" class="control-label col-6 col-md-4">Password:</label>
+                    <div class="col-6 col-md-4">
                       <input type="password" class="form-control" id="passwordBox" placeholder="Choose Your Password"/>
                     </div>
                   </div>
               </fieldset>
             </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <button type="submit" class="btn btn-primary" id="submitBox" value="Submit"><a href="personalInformation.html">Submit</a></button>
         </div>
       </div>
     </div>
