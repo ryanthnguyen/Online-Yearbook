@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-#submitBox2 {
+#submitBox1 {
   margin-left: 530px !important;
   margin-bottom: -40px !important;
   -moz-border-radius: 15px;
@@ -19,4 +19,8 @@ a {
 
 #abutton {
   color: white !important;
+}
+
+#buttonContainer {
+  text-align: center;
 }

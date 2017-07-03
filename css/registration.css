@@ -73,11 +73,22 @@ legend {
   margin-bottom: 30px !important;
 }
 
-#submitBox {
-  margin-left: 315px !important;
-  margin-bottom: -40px !important;
+#signUpButton {
+  display: inline-block;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
+}
+
+#loginButton {
+  display: inline-block;
+  margin-right: 10px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+#buttonContainer {
+  text-align: center;
+  margin-top: 10px;
 }
 
 a {
