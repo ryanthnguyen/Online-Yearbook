@@ -35,6 +35,7 @@ firebase.auth().onAuthStateChanged(function(user){
       Phone: phoneValue
     });
     console.log('User is' + user);
+    window.location = 'homepage.html';
   } else {
     console.log('User is null');
   }
