@@ -73,15 +73,13 @@
             <label for="schoolYearBox" class="control-label col-6 col-md-4">School Year:</label>
             <div class="col-6 col-md-4">
               <div class="dropdown">
-                  <ul class="nav nav-pills nav-justified">
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">School Years<span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">2017-2018</a></li>
-                        <li><a href="#">2016-2017</a></li>
-                        <li><a href="#">2015-2016</a></li>
-                      </ul>
-                    </li>
-                  </ul>
+                <select class="form-control" name="schoolYears" id="schoolYears">
+                  <option value="" selected="selected">Select School Years</option>
+                  <option>2017-2018</option>
+                  <option>2016-2017</option>
+                  <option>2015-2016</option>
+                  <option>2014-2015</option>
+                <select>
                 </div>
               </div>
             </div>
@@ -92,16 +90,16 @@
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="schoolAddressBox" class="control-label col-6 col-md-4">School Address:</label>
+                  <label for="schoolStreet" class="control-label col-6 col-md-4">School Address:</label>
                   <div class="col-6 col-md-4">
-                    <input type="text" class="form-control" id="schoolAddressBox" placeholder="Enter Street Address"/>
+                    <input type="text" class="form-control" id="schoolStreet" placeholder="Enter Street Address"/>
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="col-6 col-md-4">
                   </div>
                     <div class="col-6 col-md-4">
-                    <input type="text" class="form-control" id="schoolAddressBox" placeholder="City"/>
+                    <input type="text" class="form-control" id="schoolCity" placeholder="City"/>
                   </div>
                 </div>
                 <div class="form-group">
@@ -168,14 +166,14 @@
                   <div class="col-6 col-md-4">
                   </div>
                 <div class="col-6 col-md-4">
-                  <input type="text" class="form-control" id="schoolAddressBox" placeholder="Postal Code"/>
+                  <input type="text" class="form-control" id="schoolPostalCode" placeholder="Postal Code"/>
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="col-6 col-md-4">
                   </div>
                   <div class="col-6 col-md-4">
-                    <select class="form-control" name="countries" id="countries">
+                    <select class="form-control" name="country" id="country">
                       <option value="" selected="selected">Select a Country</option>
                     	<option value="AF">Afghanistan</option>
                     	<option value="AX">Åland Islands</option>
